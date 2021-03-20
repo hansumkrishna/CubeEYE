@@ -1,0 +1,13 @@
+numpy
+tensorflow
+zipfile
+cv2
+urllib
+subprocess
+collections 
+io 
+matplotlib 
+PIL 
+flask 
+jsonpickle
+cv2
