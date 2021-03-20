@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="directory_debug">debug/location.csv</string>
+    <string name="file_prefix_damage">damage</string>
+    <string name="file_prefix_location">location</string>
+</resources>

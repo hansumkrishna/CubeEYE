@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:orientation="vertical" android:background="@android:color/background_dark" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/layoutMenu1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/txtThreshold" android:duplicateParentState="true" android:layout_width="164dp" android:layout_height="wrap_content" android:text="CF" android:layout_weight="1" android:textAlignment="center"/>
+            <SeekBar android:id="@+id/seekTheshold" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/layoutMenu14" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <RadioGroup android:orientation="horizontal" android:id="@+id/radioMode" android:layout_width="match_parent" android:layout_height="match_parent">
+                <RadioButton android:textColor="@android:color/background_light" android:id="@+id/optMode1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/activity_opt_upload" android:layout_weight="1" android:buttonTint="@android:color/background_light"/>
+                <RadioButton android:textColor="@android:color/background_light" android:id="@+id/optMode2" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/activity_opt_storage" android:layout_weight="1" android:buttonTint="@android:color/background_light"/>
+                <RadioButton android:textColor="@android:color/background_light" android:id="@+id/optMode3" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/activity_opt_frames" android:layout_weight="1" android:buttonTint="@android:color/background_light"/>
+                <CheckBox android:textColor="@android:color/background_light" android:id="@+id/checkMoving" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/activity_check_move" android:layout_weight="1" android:buttonTint="@android:color/background_light"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/layoutMenu13" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="18sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/txtUserId" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="TextView" android:layout_weight="1" android:textAlignment="center"/>
+            <TextView android:textSize="18sp" android:textColor="@android:color/background_light" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/txtUpload" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/activity_text_upload" android:layout_weight="1" android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ToggleButton android:textSize="30sp" android:layout_gravity="bottom" android:id="@+id/toggle_run" android:layout_width="match_parent" android:layout_height="71dp" android:textOn="@string/activity_toggle_on" android:textOff="@string/activity_toggle_off" android:layout_weight="1"/>
+</LinearLayout>

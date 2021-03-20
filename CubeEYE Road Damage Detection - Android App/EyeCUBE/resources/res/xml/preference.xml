@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference android:singleLine="false" android:selectAllOnFocus="true" android:title="@string/preference_phoneid_title" android:key="@string/preference_phoneid_id"/>
+    <EditTextPreference android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/preference_threthold_title" android:key="@string/preference_threthold_id" android:inputType="numberDecimal"/>
+    <Preference android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/preference_model_title" android:key="@string/preference_model_id"/>
+</PreferenceScreen>

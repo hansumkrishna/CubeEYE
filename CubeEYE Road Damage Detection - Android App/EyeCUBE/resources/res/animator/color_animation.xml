@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially">
+    <objectAnimator android:duration="375" android:valueFrom="b3ccff" android:valueTo="ffb3ccff" android:valueType="3" android:propertyName="backgroundColor"/>
+    <objectAnimator android:duration="375" android:valueFrom="ffb3ccff" android:valueTo="b3ccff" android:valueType="3" android:propertyName="backgroundColor"/>
+</set>
